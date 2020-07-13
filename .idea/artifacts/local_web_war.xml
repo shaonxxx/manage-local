@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="local-web:war">
+    <output-path>$PROJECT_DIR$/local-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>local-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="localweb-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="local-web:war exploded" />
+    </root>
+  </artifact>
+</component>
